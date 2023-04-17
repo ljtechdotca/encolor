@@ -1,7 +1,11 @@
 {
   "name": "encolor",
-  "version": "1.0.26",
+  "version": "1.0.27",
   "description": "A collection of colorization functions to add ANSI color codes to terminal output. Includes pre-defined color functions and utility functions to create custom colors. Written in TypeScript with type definitions for ease of use.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ljtechdotca/encolor.git"
+  },
   "keywords": [
     "colorization",
     "ANSI",
