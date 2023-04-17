@@ -14,7 +14,7 @@ npm install encolor
 Here's an example of how to use Encolor:
 
 ```js
-const encolor = require('encolor');
+const { encolor } = require('encolor');
 
 console.log(encolor.red('This text will be red!'));
 console.log(encolor.green('This text will be green!'));
@@ -28,5 +28,4 @@ console.log(encolor.cyan('This text will be cyan!'));
 Encolor provides the following features:
 
 - Pre-defined color functions for red, green, yellow, blue, magenta, and cyan
-- A utility function to create custom color functions
 - Written in TypeScript with type definitions for ease of use
