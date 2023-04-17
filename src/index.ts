@@ -18,3 +18,5 @@ export const encolor: Record<AvailableColor, (input: string) => string> = {
   magenta: (input: string) => encodeColor("\x1b[35m", input),
   cyan: (input: string) => encodeColor("\x1b[36m", input),
 };
+
+export default encolor;

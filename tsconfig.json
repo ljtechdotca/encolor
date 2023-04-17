@@ -4,9 +4,9 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "outDir": "./dist",
-    "declaration": true,
     "sourceMap": true,
-    "target": "es6"
+    "target": "es6",
+    "declaration": true
   },
   "include": ["src"],
   "exclude": ["node_modules"]
