@@ -10,7 +10,7 @@ function encodeColor(code: string, input: string) {
   return `${code}${input}\x1b[0m`;
 }
 
-const encolor: Record<AvailableColor, (input: string) => string> = {
+export const encolor: Record<AvailableColor, (input: string) => string> = {
   red: (input: string) => encodeColor("\x1b[31m", input),
   green: (input: string) => encodeColor("\x1b[32m", input),
   yellow: (input: string) => encodeColor("\x1b[33m", input),
@@ -18,5 +18,3 @@ const encolor: Record<AvailableColor, (input: string) => string> = {
   magenta: (input: string) => encodeColor("\x1b[35m", input),
   cyan: (input: string) => encodeColor("\x1b[36m", input),
 };
-
-export default encolor;
