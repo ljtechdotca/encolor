@@ -1,4 +1,10 @@
-import { AvailableColor } from "./types";
+export type AvailableColor =
+  | "red"
+  | "green"
+  | "yellow"
+  | "blue"
+  | "magenta"
+  | "cyan";
 
 function encodeColor(code: string, input: string) {
   return `${code}${input}\x1b[0m`;
