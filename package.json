@@ -1,0 +1,19 @@
+{
+  "name": "encolor",
+  "version": "1.0.0",
+  "description": "A collection of colorization functions to add ANSI color codes to terminal output. Includes pre-defined color functions and utility functions to create custom colors. Written in TypeScript with type definitions for ease of use.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rimraf dist && npx tsc",
+    "start": "node dist/index.js",
+    "try": "npm run build && npm run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rimraf": "^5.0.0",
+    "typescript": "^5.0.4"
+  }
+}
