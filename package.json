@@ -1,7 +1,7 @@
 {
   "name": "encolor",
-  "version": "1.0.28",
-  "description": "A collection of colorization functions to add ANSI color codes to terminal output. Includes pre-defined color functions and utility functions to create custom colors. Written in TypeScript with type definitions for ease of use.",
+  "version": "1.0.29",
+  "description": "Encolor is a collection of colorization functions that add ANSI color codes to terminal output. It includes pre-defined color functions for black, red, green, yellow, blue, magenta, and cyan, as well as utility functions to create custom colors through hex and rgb values. Encolor is written in TypeScript and includes type definitions for ease of use.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ljtechdotca/encolor.git"
@@ -17,10 +17,13 @@
     "utility functions",
     "ease of use"
   ],
-  "author": "Landon Johnson | landonjohnsontechnologies@gmail.com",
+  "author": {
+    "name": "Landon Johnson",
+    "email": "landonjohnsontechnologies@gmail.com"
+  },
   "license": "ISC",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "types": "dist/types/index.d.ts",
   "files": [
     "dist/**/*"
   ],
